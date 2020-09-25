@@ -1,2 +1,2 @@
 # Fakkuyu
-Fakku Fakku, I Fuck U
+Lightweight pentest script, written in bash

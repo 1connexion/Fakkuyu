@@ -25,6 +25,7 @@ then
    exit 1
 fi
 
+# Menu
 main(){
     echo -e ""
     echo -e "$cyan  01$red :$white Payload Generator"
@@ -83,6 +84,7 @@ ipmenu(){
     iptoolscmd
 }
 
+# Payload
 windowspayload(){
     echo -e ""
     echo -e "$cyan  01$red :$white Simple Executable File Payload"
@@ -120,6 +122,7 @@ androidpayload(){
     fi
 }
 
+# List
 maincmd(){
     echo -e "$white"
     read -p " ~ # " act;
